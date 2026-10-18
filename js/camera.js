@@ -1,0 +1,1 @@
+export class Camera{constructor(width,height){this.width=width;this.height=height;this.x=0;this.y=0;}update(player,level,dt,snap=false){const target=Math.max(0,Math.min(level.width-this.width,player.x-this.width*.38));this.x=snap?target:this.x+(target-this.x)*(1-Math.exp(-7*dt));}}
