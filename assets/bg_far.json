@@ -1,0 +1,10 @@
+{
+  "image": "bg_far.png",
+  "width": 1024,
+  "height": 506,
+  "repeatX": true,
+  "parallaxFactor": 0.2,
+  "blendBand": 96,
+  "seamMeanAbsoluteErrorBefore": 1.566,
+  "seamMeanAbsoluteErrorAfter": 0
+}

@@ -1,0 +1,121 @@
+{
+  "image": "torches.png",
+  "frameWidth": 81,
+  "frameHeight": 150,
+  "frames": [
+    {
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "w": 81,
+      "h": 150,
+      "contentOffset": [
+        3,
+        6
+      ],
+      "contentSize": [
+        74,
+        137
+      ],
+      "pivot": [
+        40.5,
+        75.0
+      ]
+    },
+    {
+      "index": 1,
+      "x": 81,
+      "y": 0,
+      "w": 81,
+      "h": 150,
+      "contentOffset": [
+        3,
+        3
+      ],
+      "contentSize": [
+        75,
+        143
+      ],
+      "pivot": [
+        40.5,
+        75.0
+      ]
+    },
+    {
+      "index": 2,
+      "x": 162,
+      "y": 0,
+      "w": 81,
+      "h": 150,
+      "contentOffset": [
+        2,
+        8
+      ],
+      "contentSize": [
+        76,
+        133
+      ],
+      "pivot": [
+        40.5,
+        75.0
+      ]
+    },
+    {
+      "index": 3,
+      "x": 243,
+      "y": 0,
+      "w": 81,
+      "h": 150,
+      "contentOffset": [
+        2,
+        7
+      ],
+      "contentSize": [
+        77,
+        136
+      ],
+      "pivot": [
+        40.5,
+        75.0
+      ]
+    }
+  ],
+  "animations": {
+    "burn": {
+      "frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fps": 8,
+      "loop": true
+    }
+  },
+  "sourceBoxes": [
+    [
+      8,
+      0,
+      126,
+      166
+    ],
+    [
+      133,
+      0,
+      251,
+      166
+    ],
+    [
+      258,
+      0,
+      376,
+      166
+    ],
+    [
+      383,
+      0,
+      501,
+      166
+    ]
+  ]
+}

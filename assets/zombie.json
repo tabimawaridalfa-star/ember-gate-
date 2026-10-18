@@ -1,0 +1,267 @@
+{
+  "image": "zombie.png",
+  "frameWidth": 48,
+  "frameHeight": 48,
+  "frames": [
+    {
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "contentOffset": [
+        6,
+        7
+      ],
+      "contentSize": [
+        36,
+        39
+      ],
+      "pivot": [
+        24.0,
+        46
+      ]
+    },
+    {
+      "index": 1,
+      "x": 48,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "contentOffset": [
+        7,
+        7
+      ],
+      "contentSize": [
+        34,
+        39
+      ],
+      "pivot": [
+        24.0,
+        46
+      ]
+    },
+    {
+      "index": 2,
+      "x": 96,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "contentOffset": [
+        6,
+        6
+      ],
+      "contentSize": [
+        35,
+        40
+      ],
+      "pivot": [
+        24.0,
+        46
+      ]
+    },
+    {
+      "index": 3,
+      "x": 144,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "contentOffset": [
+        7,
+        6
+      ],
+      "contentSize": [
+        34,
+        40
+      ],
+      "pivot": [
+        24.0,
+        46
+      ]
+    },
+    {
+      "index": 4,
+      "x": 192,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "contentOffset": [
+        11,
+        8
+      ],
+      "contentSize": [
+        25,
+        38
+      ],
+      "pivot": [
+        24.0,
+        46
+      ]
+    },
+    {
+      "index": 5,
+      "x": 240,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "contentOffset": [
+        6,
+        20
+      ],
+      "contentSize": [
+        35,
+        26
+      ],
+      "pivot": [
+        24.0,
+        46
+      ]
+    },
+    {
+      "index": 6,
+      "x": 288,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "contentOffset": [
+        8,
+        20
+      ],
+      "contentSize": [
+        31,
+        26
+      ],
+      "pivot": [
+        24.0,
+        46
+      ]
+    },
+    {
+      "index": 7,
+      "x": 336,
+      "y": 0,
+      "w": 48,
+      "h": 48,
+      "contentOffset": [
+        10,
+        25
+      ],
+      "contentSize": [
+        27,
+        21
+      ],
+      "pivot": [
+        24.0,
+        46
+      ]
+    },
+    {
+      "index": 8,
+      "x": 0,
+      "y": 48,
+      "w": 48,
+      "h": 48,
+      "contentOffset": [
+        9,
+        28
+      ],
+      "contentSize": [
+        30,
+        18
+      ],
+      "pivot": [
+        24.0,
+        46
+      ]
+    }
+  ],
+  "animations": {
+    "walk": {
+      "frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fps": 7,
+      "loop": true
+    },
+    "hurt": {
+      "frames": [
+        4
+      ],
+      "fps": 8,
+      "loop": false
+    },
+    "death": {
+      "frames": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "fps": 7,
+      "loop": false
+    }
+  },
+  "sampling": "nearest",
+  "facing": "right",
+  "baseline": 46,
+  "method": "A",
+  "sourceBoxes": [
+    [
+      0,
+      0,
+      512,
+      341
+    ],
+    [
+      512,
+      0,
+      1024,
+      341
+    ],
+    [
+      1024,
+      0,
+      1536,
+      341
+    ],
+    [
+      0,
+      341,
+      512,
+      683
+    ],
+    [
+      512,
+      341,
+      1024,
+      683
+    ],
+    [
+      1024,
+      341,
+      1536,
+      683
+    ],
+    [
+      0,
+      683,
+      512,
+      1024
+    ],
+    [
+      512,
+      683,
+      1024,
+      1024
+    ],
+    [
+      1024,
+      683,
+      1536,
+      1024
+    ]
+  ]
+}

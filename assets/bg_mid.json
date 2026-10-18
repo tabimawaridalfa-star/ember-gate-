@@ -1,0 +1,10 @@
+{
+  "image": "bg_mid.png",
+  "width": 1024,
+  "height": 506,
+  "repeatX": true,
+  "parallaxFactor": 0.5,
+  "blendBand": 96,
+  "seamMeanAbsoluteErrorBefore": 21.022,
+  "seamMeanAbsoluteErrorAfter": 0
+}

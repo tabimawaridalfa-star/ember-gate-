@@ -1,0 +1,43 @@
+{
+  "image": "level_clear.png",
+  "frameWidth": 721,
+  "frameHeight": 192,
+  "frames": [
+    {
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "w": 721,
+      "h": 192,
+      "contentOffset": [
+        7,
+        2
+      ],
+      "contentSize": [
+        706,
+        188
+      ],
+      "pivot": [
+        360.5,
+        96.0
+      ]
+    }
+  ],
+  "animations": {
+    "default": {
+      "frames": [
+        0
+      ],
+      "fps": 6,
+      "loop": true
+    }
+  },
+  "sourceBoxes": [
+    [
+      150,
+      365,
+      885,
+      572
+    ]
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "image": "hearts.png",
+  "frameWidth": 16,
+  "frameHeight": 16,
+  "frames": [
+    {
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "contentOffset": [
+        0,
+        1
+      ],
+      "contentSize": [
+        16,
+        13
+      ],
+      "pivot": [
+        8,
+        8
+      ]
+    },
+    {
+      "index": 1,
+      "x": 16,
+      "y": 0,
+      "w": 16,
+      "h": 16,
+      "contentOffset": [
+        0,
+        1
+      ],
+      "contentSize": [
+        16,
+        13
+      ],
+      "pivot": [
+        8,
+        8
+      ]
+    }
+  ],
+  "animations": {
+    "full": {
+      "frames": [
+        0
+      ],
+      "fps": 1,
+      "loop": false
+    },
+    "empty": {
+      "frames": [
+        1
+      ],
+      "fps": 1,
+      "loop": false
+    }
+  },
+  "method": "B",
+  "sampling": "nearest"
+}

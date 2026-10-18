@@ -1,0 +1,75 @@
+{
+  "image": "spikes.png",
+  "frameWidth": 199,
+  "frameHeight": 127,
+  "frames": [
+    {
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "w": 199,
+      "h": 127,
+      "contentOffset": [
+        3,
+        2
+      ],
+      "contentSize": [
+        193,
+        123
+      ],
+      "pivot": [
+        99.5,
+        63.5
+      ]
+    },
+    {
+      "index": 1,
+      "x": 199,
+      "y": 0,
+      "w": 199,
+      "h": 127,
+      "contentOffset": [
+        4,
+        2
+      ],
+      "contentSize": [
+        191,
+        123
+      ],
+      "pivot": [
+        99.5,
+        63.5
+      ]
+    }
+  ],
+  "animations": {
+    "normal": {
+      "frames": [
+        0
+      ],
+      "fps": 1,
+      "loop": true
+    },
+    "bloody": {
+      "frames": [
+        1
+      ],
+      "fps": 1,
+      "loop": true
+    }
+  },
+  "sourceBoxes": [
+    [
+      98,
+      45,
+      298,
+      185
+    ],
+    [
+      309,
+      45,
+      506,
+      185
+    ]
+  ]
+}

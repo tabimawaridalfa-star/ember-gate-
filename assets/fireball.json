@@ -1,0 +1,125 @@
+{
+  "image": "fireball.png",
+  "frameWidth": 32,
+  "frameHeight": 32,
+  "frames": [
+    {
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "contentOffset": [
+        3,
+        8
+      ],
+      "contentSize": [
+        25,
+        16
+      ],
+      "pivot": [
+        16.0,
+        16
+      ]
+    },
+    {
+      "index": 1,
+      "x": 32,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "contentOffset": [
+        4,
+        7
+      ],
+      "contentSize": [
+        24,
+        17
+      ],
+      "pivot": [
+        16.0,
+        16
+      ]
+    },
+    {
+      "index": 2,
+      "x": 64,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "contentOffset": [
+        3,
+        8
+      ],
+      "contentSize": [
+        25,
+        15
+      ],
+      "pivot": [
+        16.0,
+        16
+      ]
+    },
+    {
+      "index": 3,
+      "x": 96,
+      "y": 0,
+      "w": 32,
+      "h": 32,
+      "contentOffset": [
+        2,
+        8
+      ],
+      "contentSize": [
+        28,
+        16
+      ],
+      "pivot": [
+        16.0,
+        16
+      ]
+    }
+  ],
+  "animations": {
+    "fly": {
+      "frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "fps": 12,
+      "loop": true
+    }
+  },
+  "sampling": "nearest",
+  "facing": "right",
+  "baseline": 16,
+  "method": "A",
+  "sourceBoxes": [
+    [
+      0,
+      0,
+      543,
+      724
+    ],
+    [
+      543,
+      0,
+      1086,
+      724
+    ],
+    [
+      1086,
+      0,
+      1629,
+      724
+    ],
+    [
+      1629,
+      0,
+      2172,
+      724
+    ]
+  ]
+}

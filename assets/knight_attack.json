@@ -1,0 +1,131 @@
+{
+  "image": "knight_attack.png",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": [
+    {
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "w": 64,
+      "h": 64,
+      "contentOffset": [
+        8,
+        7
+      ],
+      "contentSize": [
+        40,
+        55
+      ],
+      "pivot": [
+        32.0,
+        62
+      ]
+    },
+    {
+      "index": 1,
+      "x": 64,
+      "y": 0,
+      "w": 64,
+      "h": 64,
+      "contentOffset": [
+        14,
+        6
+      ],
+      "contentSize": [
+        35,
+        56
+      ],
+      "pivot": [
+        32.0,
+        62
+      ]
+    },
+    {
+      "index": 2,
+      "x": 128,
+      "y": 0,
+      "w": 64,
+      "h": 64,
+      "contentOffset": [
+        9,
+        8
+      ],
+      "contentSize": [
+        54,
+        54
+      ],
+      "pivot": [
+        32.0,
+        62
+      ]
+    },
+    {
+      "index": 3,
+      "x": 192,
+      "y": 0,
+      "w": 64,
+      "h": 64,
+      "contentOffset": [
+        9,
+        8
+      ],
+      "contentSize": [
+        49,
+        54
+      ],
+      "pivot": [
+        32.0,
+        62
+      ]
+    },
+    {
+      "index": 4,
+      "x": 256,
+      "y": 0,
+      "w": 64,
+      "h": 64,
+      "contentOffset": [
+        14,
+        7
+      ],
+      "contentSize": [
+        44,
+        55
+      ],
+      "pivot": [
+        32.0,
+        62
+      ]
+    }
+  ],
+  "animations": {
+    "attack": {
+      "frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "fps": 12,
+      "loop": false
+    }
+  },
+  "sampling": "nearest",
+  "facing": "right",
+  "baseline": 62,
+  "method": "B",
+  "activeFrames": [
+    2
+  ],
+  "poseNames": [
+    "anticipation",
+    "upstroke",
+    "active",
+    "downstroke",
+    "recovery"
+  ],
+  "template": "tools/knight_pixels.json",
+  "notes": "Original helmet and torso pixel template; articulated hand-drawn arms, legs and short sword."
+}
