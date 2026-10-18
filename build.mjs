@@ -1,0 +1,14 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+import {ASSET_NAMES} from './js/assets.js';
+const root=new URL('./',import.meta.url);
+const read=p=>readFileSync(new URL(p,root),'utf8').replace(/^\uFEFF/,'');
+const names=ASSET_NAMES;
+const embedded=Object.fromEntries(names.map(n=>[n,{data:JSON.parse(read('assets/'+n+'.json')),src:'data:image/png;base64,'+readFileSync(new URL('assets/'+n+'.png',root)).toString('base64')}]));
+let assets=read('js/assets.js');
+assets=assets.slice(0,assets.indexOf('export class AudioHooks'));
+const start=assets.indexOf('export async function loadAssets()'),end=assets.indexOf('export function sprite');
+assets=assets.slice(0,start)+`async function loadAssets(){await Promise.all(Object.entries(EMBEDDED).map(async([name,a])=>{const img=new Image();await new Promise((ok,fail)=>{img.onload=ok;img.onerror=fail;img.src=a.src;});assets[name]={data:a.data,img};}));}\n`+assets.slice(end);
+const modules=[assets,...['level','actors','player','camera','audio','world','visuals','mobile','main'].map(n=>read('js/'+n+'.js'))].map(s=>s.replace(/^import .*?;\s*$/gm,'').replace(/\bexport /g,''));
+let html=read('index.html').replace('<link rel="stylesheet" href="style.css">','<style>'+read('style.css')+'</style>').replace('<script type="module" src="js/main.js"></script>',()=>'<script>\nconst EMBEDDED='+JSON.stringify(embedded)+';\n'+modules.join('\n')+'\n</script>');
+writeFileSync(new URL('MAIN-KLIK-DUA-KALI.html',root),html);
+console.log('Standalone offline build: '+html.length+' bytes');

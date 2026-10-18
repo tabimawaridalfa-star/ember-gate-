@@ -1,0 +1,1 @@
+{"name":"ember-gate-complete","version":"2.0.0","private":true,"type":"module","scripts":{"start":"node server.cjs .","build":"node build.mjs","test":"node check.mjs && node gameplay.test.mjs"}}
